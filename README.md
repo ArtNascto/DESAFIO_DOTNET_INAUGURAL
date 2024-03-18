@@ -8,11 +8,11 @@ Ex.: A chave pode ser a10z, c48i, d98à ou A13c, A38g...etc
 
 Após criar os números o sistema deve fazer um POST no endpoint abaixo, ele não tem autenticação.
 
-*https://fiap-turma3.azurewebsites.net/fiap*
+*https://fiap-inaugural.azurewebsites.net/fiap*
 
 ```shell
 Exemplo do corpo do JSON:
-curl --location 'https://fiap-turma3.azurewebsites.net/fiap' \
+curl --location 'https://fiap-inaugural.azurewebsites.net/fiap' \
 --header 'Content-Type: application/json' \
 --data '{
     "Key": "X99h",
